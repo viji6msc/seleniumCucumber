@@ -31,6 +31,7 @@ public class cucumberproject {
 	public void user_should_be_able_to_login_Successfully() throws Throwable {
 	 
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		System.out.println("Vijay");
 	}
 
 
